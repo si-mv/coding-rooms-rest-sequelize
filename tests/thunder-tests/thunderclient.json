@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "b1886320-b4bd-4832-abea-c0381c5419e7",
+    "colId": "84f8df02-c152-4555-bdfb-d356b9e6cf6d",
+    "containerId": "",
+    "name": "Read user",
+    "url": "http://localhost:5001/user/12",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-11-09T12:15:39.097Z",
+    "modified": "2022-11-09T21:45:23.766Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2a4ddc5c-d611-4f51-9f00-2fea69d1ddcc",
+    "colId": "84f8df02-c152-4555-bdfb-d356b9e6cf6d",
+    "containerId": "",
+    "name": "Create user",
+    "url": "http://localhost:5001/user",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-09T12:15:43.754Z",
+    "modified": "2022-11-09T22:08:06.695Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"Viserys\",\n  \"email\": \"still@king.com\",\n  \"password\": \"king123\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "19bab8ad-6c96-449a-bd65-202652cb57c2",
+    "colId": "84f8df02-c152-4555-bdfb-d356b9e6cf6d",
+    "containerId": "",
+    "name": "Update user",
+    "url": "http://localhost:5001/user/6",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-11-09T12:16:16.358Z",
+    "modified": "2022-11-09T21:06:54.405Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"password\": \"Syrax7!\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "985ab7ea-343f-4145-955b-6b15d3d6d099",
+    "colId": "84f8df02-c152-4555-bdfb-d356b9e6cf6d",
+    "containerId": "",
+    "name": "Delete user",
+    "url": "http://localhost:5001/user/6",
+    "method": "DELETE",
+    "sortNum": 40000,
+    "created": "2022-11-09T12:20:04.577Z",
+    "modified": "2022-11-09T21:07:05.115Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

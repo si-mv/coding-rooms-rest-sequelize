@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "3f753f82-753d-4d1e-b5c9-79d662a99ed1",
+    "colId": "history",
+    "containerId": "",
+    "name": "Create user",
+    "url": "http://localhost:5001/user",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-09T12:12:35.039Z",
+    "modified": "2022-11-09T12:14:24.332Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"Rhaenyra\",\n  \"email\": \"queen@targaryen.com\",\n  \"password\": \"RhiRhi4Life\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9a0eab49-ef0e-4161-a352-b709505b177b",
+    "colId": "history",
+    "containerId": "",
+    "name": "Get user",
+    "url": "http://localhost:5001/user/2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-09T12:14:51.190Z",
+    "modified": "2022-11-09T12:14:51.221Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
